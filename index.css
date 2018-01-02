@@ -1,0 +1,23 @@
+.heading{
+  background:black;
+  padding: 20px;
+  color:white;
+  text-align: center;
+}
+
+.main{
+  padding:  10px 20px 20px 20px;
+}
+
+.activeLink {
+  color: red;
+  background-color: purple;
+}
+
+.left-main{
+  background-color: yellowgreen;
+}
+
+.right-main{
+  background-color: #30f9e7;
+}
