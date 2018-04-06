@@ -6,7 +6,9 @@ import HomePageText from './src/Home';
 import './index.css';
 import {Characters, charList} from './src/Characters';
 import FormTest from './src/FormTest';
+import SqlTest from './src/SqlTest';
 import InputFields from './src/InputFields';
+import FirebaseTest from './src/FirebaseTest';
 import NotFound from './src/NotFound';
 import linkList from './src/LinkList';
 import './node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -42,7 +44,9 @@ ReactDOM.render(
                         <Route path={'/Characters'} component={Characters}/>
                         <Route path={'/InputFieldsTest'} component={FormTest}/>
                         <Route path={'/HigherOrderComponents'} component={InputFields}/>
-                        <Route exact={true} path="/" component={HomePageText}/> 
+                        <Route path={'/FirebaseTest'} component={FirebaseTest}/>
+                        <Route path={'/SqlTest'} component={SqlTest}/>
+                        <Route exact={true} path="/" component={HomePageText}/>
                         {/* <HomePageText /> */}
                         {/* <Characters list={charList}></Characters>
                         <FormTest />
