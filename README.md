@@ -1,6 +1,8 @@
 # ReactDemo
 A React Demo Webpage, utilizing most of the React programming concepts. Uses OpenBrowserPlugin to open page in browser upon startup. Has a demo of firebase data storage, although as of currently would recommend using firestore which came out half a year ago roughly, despite it being in beta.
 
+![github3](https://user-images.githubusercontent.com/34944774/38452983-6a5a29f4-3a1c-11e8-9895-fa092e8c6b9d.png)
+
 To Run:
 
 Unzip files.
