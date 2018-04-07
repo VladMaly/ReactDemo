@@ -22,6 +22,8 @@ Azure doesn't seem appealing to many people on the forums, and seem more complic
 
 AWL seems be slightly older/started before Google Cloud storage became big, hence its features are vast, and has competitive pricing that matches Google Cloud's, although that depends on the service. Overall is a fair match up when compared to Google Cloud.
 
+Firebase Database vs Firebase Firestore? Definitly choose firestore, yet it came out recently, being 6 months ago roughly Oct 2017, so hence is in beta, but is more than capable of being used as of this point, its an upgrade in every way over firebase database, shallow searches and you can combine queries, which is a big plus.
+
 Firebase handles as lot of the repetitive hard work for you. Great for starting up an application, handles everything from security, scallibility and offline support, all assuming you are fine working with a Json type, noSQL database. Realtime is another big perk it has for chat systems. Main problems I had was with queries, as there are no jion statements. There are 3 links below that hopefully shed some light, also remember when using firestore vs datastore, that firestore queries are shallow and don't have access to children meaning the structure of the database can be more flexible.
 https://www.youtube.com/watch?v=sKFLI5FOOHs
 
