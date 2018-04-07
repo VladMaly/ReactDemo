@@ -38,3 +38,5 @@ Use Google cloud functions, they are eseentially act triggers upon a database ch
 
 
 CASE 4: Cassandra, Redis, HBase and Hadoop came up often when looking at Twitter and Facebook.
+
+CASE 5: Examine using SQL with some noSQL approach like Firebase, what would be the benefit of this stack?
