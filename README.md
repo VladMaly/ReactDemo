@@ -20,12 +20,17 @@ Azure doesn't seem appealing to many people on the forums, and seem more complic
 
 AWL seems be slightly older/started before Google Cloud storage became big, hence its features are vast, and has competitive pricing that matches Google Cloud's, although that depends on the service. Overall is a fair match up when compared to Google Cloud.
 
-Firebase handles as lot of the repetitive hard work for you. Great for starting up an application, handles everything from security, scallibility and offline support, all assuming you are fine working with a Json type, noSQL database. Realtime is another big perk it has for chat systems.
+Firebase handles as lot of the repetitive hard work for you. Great for starting up an application, handles everything from security, scallibility and offline support, all assuming you are fine working with a Json type, noSQL database. Realtime is another big perk it has for chat systems. Main problems I had was with queries, as there are no jion statements. There are 3 links below that hopefully shed some light, also remember when using firestore vs datastore, that firestore queries are shallow and don't have access to children meaning the structure of the database can be more flexible.
+https://www.youtube.com/watch?v=sKFLI5FOOHs
+
+https://www.youtube.com/watch?v=3WTQZV5-roY
+
+https://www.youtube.com/watch?v=Idu9EJPSxiY
 
 https://cloud.google.com/storage-options/
 Google Cloud database has a lot more though, see diagram in website. After searching what other big companies use, a lot of them did use BigTable, but mind the fact that they also used like 5 different other database systems depending on which one was best for the particular task, some of the tech from these is covered in my section 'CASE 4'.
 
-CASE 2: Storing Images in firebase, storing images in firestore as binary vs firebase storage.
+CASE 2: Storing Images in firebase, incase you thought of storing images in firestore as binary vs using firebase storage, just use firebase storage.
 
 https://stackoverflow.com/questions/49265931/firestore-database-add-image-to-record
 
