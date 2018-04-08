@@ -2,17 +2,6 @@ import React, { Component, Image } from 'react';
 import ReactDOM from 'react-dom';
 import firebase from 'firebase';
 
-const FIREBASE_CONFIG = {
-    apiKey: "AIzaSyBNwKakeSJ2pJPufMH7jvSEK-0Cq70I6EU",
-    authDomain: "caterpalacetest.firebaseapp.com",
-    databaseURL: "https://caterpalacetest.firebaseio.com",
-    projectId: "caterpalacetest",
-    storageBucket: "gs://caterpalacetest.appspot.com",
-    messagingSenderId: "536293245368"
-};
-
-firebase.initializeApp(FIREBASE_CONFIG);
-
 class FirebaseTest extends React.Component {
     constructor(props) {
         super(props);
@@ -41,10 +30,10 @@ class FirebaseTest extends React.Component {
             });
             this.dataBackup = dataTemp;
             this.loadImages();
-            this.setState({ listOfClients: dataTemp });
+            // this.setState({ listOfClients: dataTemp });
         })
         .catch((error) => {
-            this.setState({ status: error.message });
+            // this.setState({ status: error.message });
         })
     }
     loadImages() {
@@ -84,11 +73,11 @@ class FirebaseTest extends React.Component {
                     {this.state.listOfClients.length != 0 ?
                         <div>
                             {this.state.listOfClients.map((client) =>
-                                <div style={{border: '1px solid black', padding: '10px', margin: '10px'}}>
+                                <div style={{border: '1px solid black', padding: '10px', margin: '10px'}} key={client.email}>
                                     {client.portfolioUri != '' ?
-                                        <img src={ client.portfolioUri } style={{ width: '40px', height: '40px' }}/>
+                                        <img src={ client.portfolioUri } style={{ width: '60px', height: '60px' }}/>
                                     :
-                                        <div style={{ width: '40px', height: '40px', border: '1px solid black'}}>{client.nickname}</div>
+                                        <div style={{ width: '60px', height: '60px', border: '1px solid black'}}>{client.nickname}</div>
                                     }
                                     <div>Name: {client.name}, Email: {client.email}</div>
                                 </div>

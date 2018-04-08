@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import linkList from './LinkList';
+import linkList from '../consts/LinkList';
 
 class NotFound extends React.Component {
     constructor(props) {

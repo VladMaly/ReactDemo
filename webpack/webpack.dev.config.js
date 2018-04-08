@@ -14,7 +14,8 @@ module.exports = {
     },
     devServer: {
         contentBase: parentDir,
-        historyApiFallback: true
+        historyApiFallback: true,
+        overlay: true
     },
 	module: {
 		loaders: [{

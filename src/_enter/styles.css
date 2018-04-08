@@ -1,0 +1,47 @@
+.heading {
+    background:black;
+    padding: 20px;
+    color:white;
+    text-align: center;
+}
+  
+.main {
+    padding:  10px 20px 20px 20px;
+}
+
+.activeLink {
+    color: red;
+    background-color: purple;
+}
+
+.left-main {
+    background-color: yellowgreen;
+}
+
+.right-main {
+    background-color: #30f9e7;
+}
+
+.align-left {
+    float: left;
+}
+.align-right {
+    float: right;
+}
+
+@media screen and (min-width: 1270px) {
+    .container-over-boxes {
+        width: 1270px;
+        margin: auto;
+    }
+}
+
+.left-side-width {
+    width: 350px;
+}
+
+.right-side-width {
+    margin-left: 370px;
+    min-width: 450px;
+    max-width: 900px;
+}
