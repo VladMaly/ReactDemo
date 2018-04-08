@@ -20,7 +20,7 @@ CASE 1: Firebase/Google Cloud vs AWL(Amazon) vs Azure(Microsoft)
 
 Azure doesn't seem appealing to many people on the forums, and seem more complicated to set up, so I will skip talking about it.
 
-AWL seems be slightly older/started before Google Cloud storage became big, hence its features are vast, and has competitive pricing that matches Google Cloud's, although that depends on the service. Overall is a fair match up when compared to Google Cloud.
+AWL seems be slightly older/started before Google Cloud storage became big, hence its features are vast, and has competitive pricing that matches Google Cloud's, although that depends on the service. Overall is a fair match up when compared to Google Cloud. As an example netflix and prior to being bought out by facebook, instagram stored all their data on Amazon S3.
 
 Firebase Database vs Firebase Firestore? Definitly choose firestore, yet it came out recently, being 6 months ago roughly Oct 2017, so hence is in beta, but is more than capable of being used as of this point, its an upgrade in every way over firebase database, shallow searches and you can combine queries, which is a big plus.
 
