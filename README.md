@@ -46,6 +46,6 @@ CASE 3: Middle end between client and firebase?
 Use Google cloud functions, they are eseentially act triggers upon a database change, and alliviate as a middle man for cusotm logic on the server-side between the client and the data.
 
 
-CASE 4: Cassandra, Redis, HBase and Hadoop came up often when looking at Twitter and Facebook.
+CASE 4: Cassandra, Redis, HBase and Hadoop came up often when looking at Twitter and Facebook tech stack, need to do research.
 
 CASE 5: Examine using SQL with some noSQL approach like Firebase, what would be the benefit of this stack?
